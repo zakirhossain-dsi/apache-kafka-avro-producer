@@ -1,0 +1,22 @@
+{
+  "namespace": "com.example.avro.schema",
+  "type": "record",
+  "name": "User",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string",
+      "avro.java.string": "String"
+    },
+    {
+      "name": "address",
+      "type": "string",
+      "avro.java.string": "String",
+      "default": "KL"
+    },
+    {
+      "name": "age",
+      "type": "int"
+    }
+  ]
+}
